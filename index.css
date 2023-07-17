@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/* navbar */
+.navbar-nav li a{
+	font-size: 18px
+}
+.navbar-nav li a:hover{
+	color:rgb(31, 151, 198);
+}
+@media (max-width:576px){
+	.navbar .navbar-brand img{
+		width:5rem;
+
+	}
+}
+.list-uesr-cart {
+	list-style: none;
+	font-size: 25px;
+	cursor: pointer;
+}
+.list-uesr-cart a ,
+.list-media a{
+color: black;
+}
+.list-uesr-cart a:hover ,
+ .list-media a:hover {
+	color: rgb(31, 151, 198);
+}
+@media (max-width:576px){
+	.list-uesr-cart {
+		list-style: none;
+		font-size: 20px;
+		cursor: pointer;
+	}
+}
+.card-img-overlay h1:nth-child(3){
+	color: rgb(31, 151, 198);
+}
+@media (max-width:576px) {
+	.card-img-overlay .card-title ,.card-text:nth-child(4){
+		font-size: 0.9rem;
+    margin-top: 5px;
+	}
+	.card-img-overlay .card-title {
+		line-height: 2;
+	}
+	.card-img-overlay .text-2{
+		font-size: 1.9rem;
+	}
+}
+@media (min-width:768px) {
+	.card-img-overlay .card-title ,.card-text:nth-child(4){
+		font-size: 1rem;
+	}
+	.card-img-overlay .text-2{
+		font-size: 3rem;
+	}
+}
+@media (min-width:992px) {
+	.card-img-overlay .card-title ,.card-text:nth-child(4){
+		font-size: 1.5rem;
+	}
+	.card-img-overlay .text-2{
+		font-size: 4rem;
+	}
+}
+.list-media{
+	list-style: none;
+	font-size: 35px;
+	margin-right: 3rem;
+	cursor: pointer;
+}
